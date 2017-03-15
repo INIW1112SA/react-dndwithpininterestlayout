@@ -1,0 +1,28 @@
+.cardsFav {
+     width:700px !important;
+     margin-left: 150px !important;
+   }
+   .imageAns {
+     border-radius: 50%;
+   }
+   .ansWidth {
+     width:98%;
+   }
+   .anspad {
+     margin: 5px 10px 5px 20px !important;
+     /*background-color: #F1F8FB !important;*/
+   }
+   .paradate {
+     float:left
+   }
+   .plusbtn {
+     position: relative;
+     margin-left: 65% !important;
+   }
+   .checkmarkbtn {
+     position: relative;
+     margin-left: 90% !important;
+   }
+   .ques {
+     color: white !important;
+   }

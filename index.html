@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Zoomato</title>
+    <script id="tempelate" type="text/javascript">
+      <div class="ui grid">
+        <div class="five wide column">
+          <img src="${Poster}" alt=""/>
+        </div>
+        <div class="eight wide column">
+          <h3>${name}</h3>
+          <h6>${address}</h6>
+          <h6>${cuisines}</h6>
+          <button class="ui secondary button">save</button>
+        </div>
+        <div class="three wide column"></div>
+          <h3>Rating:<span>${user_rating.aggregate_rating}</span></h3>
+      </div>
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter city name:</h1>
+     <div class="ui fluid category search">
+      <div class="ui icon input">
+        <input class="prompt" type="text" placeholder="Search animals...">
+        <i class="search icon"></i>
+      </div>
+  <!-- <div class="results"></div> -->
+</div>
+      <button id="btnSearch" type="submit" class="ui button primary">Search</button>
+      <div class ="row" id="results">
+
+      </div><!--will contain serach results-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
